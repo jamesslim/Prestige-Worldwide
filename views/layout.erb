@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
 <link rel="stylesheet" href="/default.css">
-    <title></title>
+<link rel="icon" href="/PW_icon.png"/>
+    <title>Prestige Worldwide </title>
   </head>
-  <body>
-<nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/page1">About Us</a></li>
-      <li><a href="/page2">Research/Technology</a></li>
-      <li><a href="/contact">Get in Touch</a></li>
-    </ul>
-  </nav>
+  <body class="<%= @class_name %>">
+
+    <div class= "container">
+        <a href="/">Home</a>
+        <a href="/page1">Services</a>
+        <a href="/page2">Research & Development</a>
+        <a href="/contact">Get in Touch</a>
+    </div>
 
 <%= yield %>
 <script src="/main.js">
-</script>     
+</script>
   </body>
 </html>
