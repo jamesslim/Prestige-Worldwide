@@ -7,9 +7,9 @@ before do
 end
 
 get '/' do
-  #If we want to specify a class for additional styling
-  #@title = "Home Page"
-  #@class_name = "home"
+  #@class_name to help specify styling on the home page, otherwise it will be "default" listed above
+
+  @class_name = "home"
   erb :home
 end
 
