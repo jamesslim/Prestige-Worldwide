@@ -60,3 +60,46 @@ div.container a:hover:before, div.container a:hover:after
     height: 2px;
     width: 100%;
 }
+
+/*Services pages*/
+
+img.image{
+  float: left;
+  height: 300px;
+  width: 300px;
+  padding-bottom: 25px;
+  padding-right: 15px;
+  border-radius: 35%;
+}
+
+
+
+p.image{
+  font-size: 30px;
+  float: right;
+  color: whitesmoke;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+h1.image{
+  font-size: 60px;
+  color: white;
+}
+
+h2.image{
+  color:red;
+  font-family: fantasy;
+}
+
+/*Contact page*/
+form.contact{
+  font-size: 25px;
+  color: red;
+}
+
+input.contact{
+  font-size: 25px;
+  color:red;
+  border: 2px solid black;
+}
