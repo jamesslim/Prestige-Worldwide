@@ -83,6 +83,7 @@ div.container a:hover:before, div.container a:hover:after
     height: 2px;
     width: 100%;
 }
+
 img {
 	display: block;
 	margin-left: auto;
@@ -95,4 +96,88 @@ p {
 	text-align: center;
 	margin-left: 350px;
 	margin-right: 350px;
-} 
+}
+
+/*Services pages*/
+
+img.image{
+  float: left;
+  height: 300px;
+  width: 300px;
+  padding-bottom: 25px;
+  padding-right: 15px;
+  border-radius: 35%;
+}
+
+
+
+p.image{
+  font-size: 30px;
+  float: right;
+  color: whitesmoke;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+h1.image{
+  font-size: 60px;
+  color: white;
+}
+
+h2.image{
+  color:red;
+  font-family: fantasy;
+}
+
+/*Contact page*/
+form.contact{
+  font-size: 20px;
+  color: red;
+  padding: 10px;
+}
+
+input.contact{
+  font-size: 20px;
+  color:black;
+  border: 2px solid black;
+
+
+}
+
+h1.contact{
+  font-size: 60px;
+  color: white;
+  font-family: fantasy;
+}
+p.contact{
+  float: right;
+  padding-left: 25%;
+  padding-right:25%;
+  font-size: 30px;
+  color: lightcyan;
+  font-family: fantasy;
+
+}
+img.contact {
+    z-index: -1;
+    position: relative;
+    width:400px;
+    height: 300px;
+
+}
+div.q{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width:auto;
+}
+
+div.contact{
+  display: block;
+}
+form{
+  float:left;
+  clear: left;
+  width: 100%;
+  text-align: center;
+}
