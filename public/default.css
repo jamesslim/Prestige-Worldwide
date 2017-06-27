@@ -1,5 +1,11 @@
+body {
+  background-image: url("images/background.jpg");
+}
 
-
+body.home{
+  background-image: none;
+  background-color: lightblue;
+}
 
  h1 {
   text-align: center;
