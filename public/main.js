@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(){
-
-  window.onload = function() {
-      let parent = document.querySelector('body.home');
-      if( parent )
-        parent.querySelector("#my_audio").play();
+  if( document.body.className == 'home' ) {
+     document.body.querySelector("#my_audio").play();
+  } else if( document.body.className == 'contact' ) {
+     document.querySelector("#target").addEventListener("click",function(){
+        document.getElementById('my_audio2').play();
+     });
   }
 
  });
