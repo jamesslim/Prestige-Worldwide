@@ -94,12 +94,53 @@ h2.image{
 
 /*Contact page*/
 form.contact{
-  font-size: 25px;
+  font-size: 20px;
   color: red;
+  padding: 10px;
 }
 
 input.contact{
-  font-size: 25px;
-  color:red;
+  font-size: 20px;
+  color:black;
   border: 2px solid black;
+
+
+}
+
+h1.contact{
+  font-size: 60px;
+  color: white;
+  font-family: fantasy;
+}
+p.contact{
+  float: right;
+  padding-left: 25%;
+  padding-right:25%;
+  font-size: 30px;
+  color: lightcyan;
+  font-family: fantasy;
+
+}
+img.contact {
+    z-index: -1;
+    position: relative;
+    width:400px;
+    height: 300px;
+
+}
+div.q{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width:auto;
+}
+
+div.contact{
+  display: block;
+}
+form{
+  float:left;
+  clear: left;
+  width: 100%;
+  text-align: center;
 }
