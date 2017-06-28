@@ -1,15 +1,44 @@
-  <h1>This will be our contact page</h1>
+  <audio id="my_audio2" src="audio/pow.mp3"></audio>
 
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <h1 class="<%= @class_name %>">Reserve your spot for the Catalina Wine Mixer!</h1>
+
+  <p class="<%= @class_name %>"> It's that time of that year. Helicopters, live music, and the networking opportunity of a life time! Don't be the only jabroni that isn't going. Sign up below to get all of the latest info and to reserve your spot on the waiting list. <br> <br> Remember, its the <strong>F***ING CATALINA WINE MIXER</strong>!!!!</p>
+  <article id="target">
+      <div class="q">
+        <img class="<%= @class_name %>" src="images/catalina1.jpg" />
+    </div>
+    <div class="q">
+        <img class="<%= @class_name %>" src="images/catalina2.jpg" />
+    </div>
+  <div class="q">
+        <img class="<%= @class_name %>" src="images/catalina3.jpg" />
+  </div>
+  <div class="q">
+        <img class="<%= @class_name %>" src="images/catalina4.jpeg" />
+ </div>
+  <div class="q">
+        <img class="<%= @class_name %>" src="images/catalina5.jpeg" />
+  </div>
+  <div class="q">
+        <img class="<%= @class_name %>" src="images/catalina6.jpeg" />
+  </div>
+  <div class="q">
+        <img class="<%= @class_name %>" src="images/catalina7.jpeg" />
+</div>
+<div class="q">
+      <img class="<%= @class_name %>" src="images/catalina8.jpeg" />
+</div>
+  </article>
+
 
 <%# form uses POST method and submits to actions of /contact %>
-<form method="POST">
+<form class="<%= @class_name %>" method="POST">
   First Name:<br>
-  <input type="text" name="firstname"><br>
+  <input class="<%= @class_name %>" type="text" name="firstname"><br>
   Last Name:<br>
-  <input type="text" name="lastname"><br>
+  <input class="<%= @class_name %>" type="text" name="lastname"><br>
   Email:<br>
-  <input type="email" name="email" placeholder="Im_on_a_boat@hoes.com"><br>
-  <input type ="submit" value="Submit">
+  <input class="<%= @class_name %>" type="email" name="email" placeholder="Im_on_a_boat@hoes.com"><br>
+  <input class="<%= @class_name %>" type ="submit" value="Submit">
 
 </form>
