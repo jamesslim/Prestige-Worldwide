@@ -5,10 +5,11 @@ body {
 body.home {
   	margin: 0;
   	background-image: none;
-  	/*background-color: lightblue;*/
 }
-body.home img {
-	float: left;
+body.home h1 {
+	font-size: 100px;
+	font-family: 'Raleway', sans-serif;
+	color: green;
 }
 body.home video {
 	position: fixed;
@@ -24,9 +25,9 @@ body.home video {
 	background-size: cover;
 	transition: 1s opacity;
 }
-.stopfade.home {
+/*body.home.stopfade {
 	opacity: .5;
-}
+}*/
  h1 {
  	font-family: Raleway;
  	font-size: 50px;
