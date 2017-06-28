@@ -29,7 +29,7 @@ body.home video {
 }
  h1 {
  	font-family: Raleway;
- 	font-size: 50px; 	
+ 	font-size: 50px;
   	text-align: center;
   	color: #FDF5E6;
   	padding-top: 50px;
@@ -87,11 +87,11 @@ div.container a:hover:before, div.container a:hover:after
 img {
 	display: block;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
 }
-p {
+p.home {
 	font-family: Raleway;
-	font-size: 20px; 
+	font-size: 20px;
 	color: #FDF5E6;
 	text-align: center;
 	margin-left: 350px;
