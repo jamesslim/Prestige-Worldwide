@@ -13,8 +13,9 @@ get '/' do
   erb :home
 end
 
-get '/page1' do
-  erb :page1
+get '/about' do
+  @class_name = "about"
+  erb :about
 end
 
 get '/page2' do
