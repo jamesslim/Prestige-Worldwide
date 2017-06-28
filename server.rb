@@ -18,6 +18,7 @@ get '/page1' do
 end
 
 get '/page2' do
+  @class_name = "image"
   erb :page2
 end
 
@@ -34,7 +35,7 @@ to = Email.new(email: 'lobaker13@gmail.com')
   #Get from our form
 subject = 'Sending with SendGrid is Fun'
   #Get from our form
-content = Content.new(type: 'text/plain', value: 'Gotta have me some boats&hoes')
+content = Content.new(type: 'text/plain', value: 'Gotta have me some Boats&Hoes')
 mail = Mail.new(from, subject, to, content)
 
 sg = SendGrid::API.new(api_key: ENV['SENDGRID_API_KEY'])
